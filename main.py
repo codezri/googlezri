@@ -26,5 +26,5 @@ class GoogleZri:
 
 
 gz = GoogleZri()
-gz.registerHotKey('alt+g')
+gz.registerHotKey('alt+shift+g')
 gz.listen()
