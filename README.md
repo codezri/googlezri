@@ -1,5 +1,4 @@
 # googlezri
-Search google from anywhere!
 
 Press `ALT + SHIFT + G` to Google selected text from anywhere..
 
