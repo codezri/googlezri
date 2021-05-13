@@ -1,2 +1,2 @@
 keyboard==0.13.4
-clipboard==0.0.4pip
+clipboard==0.0.4
