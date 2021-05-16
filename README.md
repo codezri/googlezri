@@ -7,6 +7,7 @@ Press `Ctrl + F2` to Google selected text from anywhere..
 
 - Linux
 - Python 3
+- Google Chrome
 
 
 ### How to install
