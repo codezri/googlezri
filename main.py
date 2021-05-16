@@ -4,7 +4,7 @@ import os
 import time
 import urllib.parse
 import subprocess
-from art import *
+import art
 
 
 class GoogleZri:
@@ -21,7 +21,7 @@ class GoogleZri:
             'sudo -u $(logname) google-chrome -new-tab https://www.google.com/search?q=' + selectedText + " &")
 
     def listen(self):
-        tprint('GoogleZri')
+        art.tprint('GoogleZri')
         print('Press ' + self.hotkey + ' to Google any selected text.')
         keyboard.wait()
 
