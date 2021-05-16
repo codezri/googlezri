@@ -4,6 +4,7 @@ import os
 import time
 import urllib.parse
 import subprocess
+from art import *
 
 
 class GoogleZri:
@@ -18,13 +19,14 @@ class GoogleZri:
         selectedText = subprocess.getoutput('xclip -o')
         selectedText = urllib.parse.quote_plus(selectedText)
         os.system(
-            'google-chrome -new-tab --no-sandbox https://www.google.com/search?q=' + selectedText)
+            'sudo -u $(logname) google-chrome -new-tab --no-sandbox https://www.google.com/search?q=' + selectedText + " &")
 
     def listen(self):
-        print('Listening to ' + self.hotkey)
+        tprint('GoogleZri')
+        print('Press ' + self.hotkey + ' to Google any selected text.')
         keyboard.wait()
 
 
 gz = GoogleZri()
-gz.registerHotKey('alt+shift+g')
+gz.registerHotKey('ctrl+f2')
 gz.listen()
