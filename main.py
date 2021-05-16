@@ -8,7 +8,6 @@ from art import *
 
 
 class GoogleZri:
-    GOOGLE_URL = 'https://www.google.com/search?q='
     hotkey = ''
 
     def registerHotKey(self, hotkey):
