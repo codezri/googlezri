@@ -1,6 +1,6 @@
 # googlezri
 
-Press `ALT + SHIFT + G` to Google selected text from anywhere..
+Press `Ctrl + F2` to Google selected text from anywhere..
 
 
 ### Prerequisites
