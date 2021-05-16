@@ -18,7 +18,7 @@ class GoogleZri:
         selectedText = subprocess.getoutput('xclip -o')
         selectedText = urllib.parse.quote_plus(selectedText)
         os.system(
-            'sudo -u $(logname) google-chrome -new-tab --no-sandbox https://www.google.com/search?q=' + selectedText + " &")
+            'sudo -u $(logname) google-chrome -new-tab https://www.google.com/search?q=' + selectedText + " &")
 
     def listen(self):
         tprint('GoogleZri')
